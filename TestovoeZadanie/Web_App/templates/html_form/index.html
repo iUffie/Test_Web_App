@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <p>Входные данные</p>
+            <form method="POST" action="" enctype="multipart/form-data"> {% csrf_token %}
+                <div class="+form-group">
+                    <input type="file" name="input_file">
+                </div>
+                <button type="submit" class="btn">Загрузить файл</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <p>Выходные данные</p>
+        </div>
+    </div>
+</body>
+</html>
